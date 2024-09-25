@@ -6,7 +6,7 @@ import { deepPurple } from '@mui/material/colors';
 function ProductReviewCard() {
     return (
         <div>
-            <Grid container spacing={2} gap={3}>
+            <Grid container gap={3}>
                 <Grid size={1}>
                     <Box>
                         <Avatar className='text-white' sx={{ width: 56, height: 56, bgcolor: deepPurple[500] }}>R</Avatar>
